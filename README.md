@@ -1,3 +1,5 @@
+![image](https://github.com/the-other-mariana/sonar/blob/master/media/sonar.png?raw=true) <br />
+
 # Sonar
 
 Sonar is a Sensory Substitution Device built as a belt that helps the blind navigate in the world based on ultrasonic sensor object detection that trigger a vibration rythm.
