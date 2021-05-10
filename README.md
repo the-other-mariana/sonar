@@ -28,6 +28,18 @@ The complete wiring of the system should look as below. <br />
 
 ![image](https://github.com/the-other-mariana/sonar/blob/master/media/wiring.png?raw=true) <br />
 
+## Set Up
+
+1. Open the Arduino IDE.
+
+2. Connect the Arduino board via a USB port.
+
+3. Make sure you choose the Boad "Arduino Nano", Processor "ATMega328P" and the Port "COM3" or "COM4", just like below.
+
+<br />
+
+![image](https://github.com/the-other-mariana/sonar/blob/master/media/ide.png?raw=true) <br />
+
 ## Compile & Run
 
 1. Open the [.ino code](https://github.com/the-other-mariana/sonar/blob/master/ultrasonic-vibration-rythm/ultrasonic-vibration-rythm.ino) that implements the solution.
@@ -36,9 +48,11 @@ The complete wiring of the system should look as below. <br />
 
 3. Click on the Upload button, besides the Verify button.
 
-4. Buckle the belt around your waist, **over** your clothes.
+4. Unplugg the board from your computer, and plug it to the battery bank.
 
-5. Press the touch sensor that is on the right of the belt, to turn on the processing.
+5. Buckle the belt around your waist, **over** your clothes.
+
+6. Press the touch sensor that is on the right of the belt, to turn on the processing.
 
 Then, the ultrasonic sensor array (size 3) does its job in order to activate the vibration motors until you press again the touch sensor that acts as a On/Off button.
 
