@@ -14,6 +14,7 @@ Sonar is a Sensory Substitution Device built as a belt that helps the blind navi
 - Sensor: `Ultrasonic Sensor HC-SR04` x3
 - Sensor: `Touch Sensor TTP223B` x1
 - Motor: `Vibration Motor` x3
+- Battery: Any recharging smartphone power bank of 5V,1A
 
 ### Vibration Motor
 
