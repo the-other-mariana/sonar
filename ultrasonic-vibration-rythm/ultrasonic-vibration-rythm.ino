@@ -1,5 +1,7 @@
 char onTouch = 0;
-char TOLERANCE = 10; // cm
+char TOLERANCE = 20; // cm
+
+// the use of global variables is avoided for memory optimization purposes
 
 void setup() {
   // CONNECTIONS
@@ -69,7 +71,7 @@ void loop() {
 
       if(cm[i - pin] <= TOLERANCE && vib[0] == 0 && vib[1] == 0 && vib[2] == 0){
         vib[i - pin] = 1;
-        VibrateRythm01(i, pin, 2000);
+        VibrateRythm01(i, pin, 1000);
         vib[i - pin] = 0;
       } else{
         vib[i - pin] = 0;
